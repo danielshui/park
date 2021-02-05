@@ -153,43 +153,7 @@
     border-bottom: 330px solid grey;
     float: left;
     }
-.treeShape5{
-	position: relative; left: 480px; bottom: -300px;
-	height: 0;
-	width: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-    border-bottom: 100px solid green;
-    float: left;
-    }
- .treeShape6{
-	position: relative; left: 285px; bottom: -355px;
-	height: 0;
-	width: 0;
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
-    border-bottom: 160px solid green;
-    float: left;
-    }
- .treeShape7{
-	position: relative; left: 5px; bottom: -415px;
-	height: 0;
-	width: 0;
-    border-left: 160px solid transparent;
-    border-right: 160px solid transparent;
-    border-bottom: 230px solid green;
-    float: left;
-    }
 
-.treeShape8{
-	position: relative; left: -355px; bottom: -500px;
-	height: 0;
-	width: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 300px solid green;
-    float: left;
-    }
 
 
 
