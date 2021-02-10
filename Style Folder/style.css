@@ -86,75 +86,345 @@
   	opacity: 0.5;
 }
 
-#container{
+#container {
     width: 100%; 
     margin: auto;
     text-align: center;
     font-family: Helvetica;
 }
-#pageTitle{
+#pageTitle {
     color:white;
 	font-size: 115px;
 	position: relative;
 	top: -5px;
 }
 
-.bodyText{
+.bodyText {
     color: white;
     font-size: 25px;
     position: relative;
     top: -30px;
 }
 
-.treeShape1{
-	position: relative; left: 480px; bottom: -300px;
-	height: 0;
-	width: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-    border-bottom: 100px solid green;
-    float: left;
-    }
- .treeShape2{
-	position: relative; left: 285px; bottom: -355px;
-	height: 0;
-	width: 0;
-    border-left: 120px solid transparent;
-    border-right: 120px solid transparent;
-    border-bottom: 160px solid green;
-    float: left;
-    }
- .treeShape3{
-	position: relative; left: 5px; bottom: -415px;
-	height: 0;
-	width: 0;
-    border-left: 160px solid transparent;
-    border-right: 160px solid transparent;
-    border-bottom: 230px solid green;
-    float: left;
-    }
+#treeShape {
+	z-index: 900;
+	}
 
-.treeShape4{
-	position: relative; left: -355px; bottom: -500px;
-	height: 0;
-	width: 0;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 300px solid green;
-    float: left;
-    }
+	.treetrunk {
+		position:absolute; left: 230px; bottom: 100px;
+	    width: 0;
+	    height: 0;
+	    border-left: 80px solid transparent;
+	    border-right: 80px solid transparent;
+	    border-bottom: 3000px solid #7e5438;
+		}
 
-.roadShape{
-	position: relative; left: -300px; bottom: -495px;
-	height: 0;
-	width: 0;
-    border-left: 200px solid transparent;
-    border-right: -50px solid transparent;
-    border-bottom: 330px solid grey;
-    float: left;
-    }
+	.treeShape1 {
+		position:absolute; left: 1300px; bottom: 100px;
+	    width: 0;
+	    height: 0;
+	    border-left: 60px solid transparent;
+	    border-right: 60px solid transparent;
+	    border-bottom: 2000px solid #7e5438;
+		}
+
+	.treeShape2 {
+		position:absolute; left: 1100px; bottom: 250px;
+	    width: 0;
+	    height: 0;
+	    border-left: 20px solid transparent;
+	    border-right: 20px solid transparent;
+	    border-bottom: 1000px solid #3D2314;
+		}
+
+	.treeShape3 {
+		position:absolute; left: 740px; bottom: 250px;
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-bottom: 2000px solid #5A3825;
+		}
+
+	.treeShape4{
+		position:absolute; left: 500px; bottom: 230px;
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-bottom: 2000px solid #3D2314;
+		}
+
+	.treeShape5{
+		position:absolute; left: 600px; bottom: 280px;
+	    width: 0;
+	    height: 0;
+	    border-left: 20px solid transparent;
+	    border-right: 20px solid transparent;
+	    border-bottom: 2000px solid #3D2314;
+		}
+
+	.treeShape6{
+		position:absolute; left: 980px; bottom: 220px;
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-bottom: 2000px solid #7e5438;
+		}
+
+	.treeShape7{
+		position:absolute; left: 1200px; bottom: 140px;
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-bottom: 2000px solid #5A3825;
+		}
+
+	.treeShape8{
+		position:absolute; left: 1200px; bottom: 140px;
+	    width: 0;
+	    height: 0;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    border-bottom: 2000px solid #5A3825;
+		}
+
+	.treebranch1{
+		position:absolute; left: 300px; bottom: 500px;
+ 		width: 200px;
+  		height: 13px;
+  		transform: rotate(-20deg);
+ 		background: #7e5438;
+ 		}
+
+	.treebranch2{
+		position:absolute; left: 487px; bottom: 517px;
+ 		width: 100px;
+  		height: 13px;
+  		transform: rotate(20deg);
+ 		background: #7e5438;
+		}
+	.treebranch3{
+		position:absolute; left: 450px; bottom: 707px;
+ 		width: 80px;
+  		height: 8px;
+  		transform: rotate(50deg);
+ 		background: #3D2314;
+		}
+	.treebranch4{
+		position:absolute; left: 599px; bottom: 407px;
+ 		width: 100px;
+  		height: 8px;
+  		transform: rotate(30deg);
+ 		background: #3D2314;
+		}
+	.treebranch5{
+		position:absolute; left: 580px; bottom: 867px;
+ 		width: 40px;
+  		height: 8px;
+  		transform: rotate(50deg);
+ 		background: #3D2314;
+		}
+	.treebranch6{
+		position:absolute; left: 515px; bottom: 540px;
+ 		width: 60px;
+  		height: 9px;
+  		transform: rotate(-30deg);
+ 		background: #7e5438;
+		}
+	.treebranch7{
+		position:absolute; left: 1015px; bottom: 540px;
+ 		width: 60px;
+  		height: 9px;
+  		transform: rotate(-30deg);
+ 		background: #7e5438;
+		}
+	.treebranch8{
+		position:absolute; left: 945px; bottom: 740px;
+ 		width: 60px;
+  		height: 9px;
+  		transform: rotate(30deg);
+ 		background: #7e5438;
+		}
+	.treebranch9{
+		position:absolute; left: 1265px; bottom: 540px;
+ 		width: 60px;
+  		height: 16px;
+  		transform: rotate(-30deg);
+ 		background: #7e5438;
+		}
+	.treebranch10{
+		position:absolute; left: 1215px; bottom: 548px;
+ 		width: 70px;
+  		height: 13px;
+  		transform: rotate(40deg);
+ 		background: #7e5438;
+		}
+	.treebranch11{
+		position:absolute; left: 1165px; bottom: 760px;
+ 		width: 60px;
+  		height: 9px;
+  		transform: rotate(40deg);
+ 		background: #5A3825;
+		}
 
 
 
+#path {} 
 
+	.path1 {
+		position:absolute; left: 890px; bottom: 183px;
+	    width: 20px;
+        height: 7px;
+        background: darkgrey;
+        border-radius: 100px / 50px;
+		}
+
+	.path2 {
+		position:absolute; left: 893px; bottom: 165px;
+	    width: 25px;
+        height: 12px;
+        background: darkgrey;
+        border-radius: 100px / 50px;
+		}
+
+	.path3 {
+		position:absolute; left: 897px; bottom: 140px;
+	    width: 35px;
+        height: 17px;
+        background: darkgrey;
+        border-radius: 100px / 50px;
+		}
+
+	.path4 {
+		position:absolute; left: 905px; bottom: 106px;
+	    width: 46px;
+        height: 25px;
+        background: darkgrey;
+        border-radius: 100px / 50px;
+		}
+
+	.path5 {
+		position:absolute; left: 912px; bottom: 61px;
+	    width: 66px;
+        height: 35px;
+        background: darkgrey;
+        border-radius: 100px / 50px;
+		}
+
+#house {
+	z-index: 950;
+	}
+
+	.roof {
+		position:absolute; left: 800px; bottom: 300px;
+	    width: 150px;
+	    height: 100px;
+	    transform: skew(20deg);
+	    background: red;
+	    }
+
+	.front {
+		position:absolute; left: 818px; bottom: 200px;
+		width: 130px;
+		height: 100px;
+		background: darkgrey;
+		}
+
+	.side {
+		position:absolute; left: 763px; bottom: 200px;
+		width: 55px;
+		height: 100px;
+		background: #616161;
+		} 
+
+	.sideroof {
+		position:absolute; left: 751.5px; bottom: 300px;
+    	width: 0;
+    	height: 0;
+    	border-left: 30px solid transparent;
+    	border-right: 36px solid transparent;
+    	border-bottom: 100px solid darkred;
+    	}
+
+    .door {
+    	position:absolute; left: 880px; bottom: 200px;
+	 	width: 20px;
+	 	height: 50px;
+	 	background: red;
+    	}
+
+    .window1 {
+    	position:absolute; left: 840px; bottom: 230px;
+	 	width: 20px;
+	 	height: 20px;
+	 	background: yellow;
+    	}
+
+    .window2 {
+    	position:absolute; left: 916px; bottom: 230px;
+	 	width: 18px;
+	 	height: 20px;
+	 	background: yellow;
+    	}
+
+    .windowpane1 {
+    	position:absolute; left: 840px; bottom: 238.5px;
+	 	width: 20px;
+	 	height: 3px;
+	 	background: #616161;
+    	}
+
+    .windowpane2 {
+    	position:absolute; left: 849px; bottom: 230px;
+	 	width: 3px;
+	 	height: 20px;
+	 	background: #616161;
+    	}
+
+    .windowpane3 {
+    	position:absolute; left: 916px; bottom: 238.5px;
+	 	width: 18px;
+	 	height: 3px;
+	 	background: #616161;
+    	}
+
+    .windowpane4 {
+    	position:absolute; left: 924px; bottom: 230px;
+	 	width: 3px;
+	 	height: 20px;
+	 	background: #616161;
+    	}
+
+	.blacktriangle {
+		position:absolute; left: 750px; bottom: 140px;
+      	width: 0;
+     	height: 0;
+      	border-top: 30px solid transparent;
+      	border-left: 100px solid black;
+     	border-bottom: 50px solid transparent;
+    	}
+
+#moon {}
+
+    .moon {
+    	position:absolute; left: 1100px; bottom: 760px;
+		width: 100px;
+		height: 100px;
+		background: #f5f3ce;
+		border-radius: 50%;
+		z-index: -1; 
+    	}
+
+    .mooncutout {
+ 		position:absolute; left: 1145px; bottom: 790px;
+		width: 80px;
+		height: 80px;
+		background: black;
+		border-radius: 50%;
+		z-index: -1; 
+    	}
+    	}
 
