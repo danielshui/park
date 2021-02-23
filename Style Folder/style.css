@@ -426,5 +426,71 @@
 		border-radius: 50%;
 		z-index: -1; 
     	}
-    	}
+    	
 
+
+	.pgcontent {
+		padding-bottom: 2000px; 
+	    color:white;
+		font-size: 70px;
+		position: relative;
+		top: -150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		font-family: consolas;
+		z-index: -1;
+		}
+
+	.pgtitleReveal {
+		max-width: 1100px;
+		}
+		.pgtitleReveal span
+		{
+		display: inline-block;
+		position: relative;
+		opacity: 0;
+		transition: 1s: 
+		font-size: 4em;
+		}
+
+	.pgone {
+		margin-left: 300px;
+		margin-right: 350px;
+		position: relative;
+		top: -2000px;
+		color:white;
+		font-size: 20px;
+		font-family: consolas;
+		}
+
+	.pgtwo {
+		margin-left: 300px;
+		margin-right: 350px;
+		position: relative;
+		top: -1500px;
+		color:white;
+		font-size: 20px;
+		font-family: consolas;
+		}
+
+	.pgthree {
+		margin-left: 300px;
+		margin-right: 350px;
+		position: relative;
+		top: -1000px;
+		color:white;
+		font-size: 20px;
+		font-family: consolas;
+		}
+
+	.citation {
+		margin-left: 300px;
+		margin-right: 350px;
+		position: relative;
+		top: -60px;
+		color:white;
+		font-size: 14px;
+		font-family: consolas;
+		}
