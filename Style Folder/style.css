@@ -430,11 +430,11 @@
 
 
 	.pgcontent {
-		padding-bottom: 2000px; 
+		padding-bottom: 300px; 
 	    color:white;
-		font-size: 70px;
+		font-size: 63px;
 		position: relative;
-		top: -150px;
+		top: -300px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -444,7 +444,7 @@
 		}
 
 	.pgtitleReveal {
-		max-width: 1100px;
+		max-width: 1000px;
 		}
 		.pgtitleReveal span
 		{
@@ -459,7 +459,7 @@
 		margin-left: 300px;
 		margin-right: 350px;
 		position: relative;
-		top: -2000px;
+		top: -850px;
 		color:white;
 		font-size: 20px;
 		font-family: consolas;
@@ -469,7 +469,7 @@
 		margin-left: 300px;
 		margin-right: 350px;
 		position: relative;
-		top: -1500px;
+		top: -750px;
 		color:white;
 		font-size: 20px;
 		font-family: consolas;
@@ -479,7 +479,7 @@
 		margin-left: 300px;
 		margin-right: 350px;
 		position: relative;
-		top: -1000px;
+		top: -650px;
 		color:white;
 		font-size: 20px;
 		font-family: consolas;
