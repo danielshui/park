@@ -1,14 +1,14 @@
 .padding
 {
 	margin: 0;
-	padding-bottom: 5000px;
+	padding-bottom: 0;
 }
 
 .bg
 {
 	position: relative;
 	background: #9DD9F3 url("backgroundTree.png");
-	height: 47vh;
+	height: 35vh;
 	background-size: cover;
 	background-position: 0 0;
 	background-repeat: repeat-x;
@@ -27,9 +27,9 @@
 
 
 #shapeOne {
-	position: relative; left: 1000px; bottom: -2850px; 
-	height: 150px;
- 	width: 150px;
+	position: relative; left: 1100px; bottom: -30px; 
+	height: 110px;
+ 	width: 110px;
  	background-color: darkorange;
  	border-radius: 80px;
  	margin-bottom: 30px;
@@ -39,43 +39,43 @@
 	
 		#shapeOne:hover, #shapeOne:active {
  		border-radius: 80px;
- 		height: 150px;
- 		width: 150px;
- 		background-color: green;
+ 		height: 110px;
+ 		width: 110px;
+ 		background-color: #9DD9F3;
 		}
 
 #shapeTwo {
-	position: relative; left: 220px; bottom: -1000px; 
-	height: 150px;
- 	width: 150px;
- 	background-color: red;
+	position: relative; left: 600px; bottom: -30px; 
+	height: 110px;
+ 	width: 110px;
+ 	background-color: green;
  	margin-bottom: 30px;
  	float: left;
  	margin-right: 20px;
 	}
 
 		#shapeTwo:hover, #shapeTwo:active {
- 		height: 150px;
- 		width: 150px;
- 		background-color: darkorange;
+ 		height: 110px;
+ 		width: 110px;
+ 		background-color: #9DD9F3;
 		}
 
 #shapeThree {
-	position: relative; left: 80px; bottom: -4400px;
+	position: relative; left: 100px; bottom: -30px;
 	height: 0;
 	width: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-    border-bottom: 150px solid green;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 110px solid red;
     float: left;
     }
 
 		#shapeThree:hover, #shapeThree:active {
     	width: 0;
     	height: 0;
-    	border-left: 75px solid transparent;
-    	border-right: 75px solid transparent;
-    	border-bottom: 150px solid red;
+    	border-left: 55px solid transparent;
+    	border-right: 55px solid transparent;
+    	border-bottom: 110px solid #9DD9F3;
     	}
 
 
@@ -403,7 +403,7 @@
       	width: 0;
      	height: 0;
       	border-top: 30px solid transparent;
-      	border-left: 100px solid black;
+      	border-left: 100px solid darkgreen;
      	border-bottom: 50px solid transparent;
     	}
 
@@ -426,6 +426,15 @@
 		border-radius: 50%;
 		z-index: -1; 
     	}
+
+    .grass {
+  		position:absolute; left: 0px; bottom: 0px;
+		width: 1620px;
+		height: 310px;
+		background: darkgreen;
+		z-index: -1; 
+    	}
+
     	
 
 
@@ -494,3 +503,65 @@
 		font-size: 14px;
 		font-family: consolas;
 		}
+
+
+section {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+
+	transform: rotateX(320deg) rotateY(-230deg)
+	}
+
+div.face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	}
+
+div.basketballFront {
+	width: 150px;
+	height: 150px;
+	background-image: url("BasketballFront.jpg");
+	transform: translateX(-50%) translateY(-50%) translateZ(75px);
+	}
+
+div.basketballRight {
+	width: 150px;
+	height: 150px;
+	background-image: url("BasketballRight.jpg");
+	transform: translateX(-50%) translateY(-50%) rotateY(90deg) translateZ(75px);
+	}
+
+div.basketballLeft {
+	width: 150px;
+	height: 150px;
+	background-image: url("BasketballLeft.jpg");
+	transform: translateX(-50%) translateY(-50%) rotateY(-90deg) translateZ(75px);
+	}
+
+div.basketballTop {
+	width: 150px;
+	height: 150px;
+	background-image: url("BasketballTop.jpg");
+	transform: translateX(-50%) translateY(-50%) rotateY(180deg) rotateX(90deg) translateZ(75px);
+	}
+
+div.basketballBottom {
+	width: 150px;
+	height: 150px;
+	background-image: url("BasketballBottom.jpg");
+	transform: translateX(-50%) translateY(50%) rotateY(180deg) rotateX(90deg) translateZ(75px);
+	}
+
+div.basketballBack {
+	width: 150px;
+	height: 150px;
+	background-image: url("BasketballBack.jpg");
+	transform: translateX(-50%) translateY(-50%) rotateY(180deg) translateZ(75px);
+	}
+
