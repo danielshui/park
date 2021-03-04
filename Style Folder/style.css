@@ -1,7 +1,7 @@
 .padding
 {
 	margin: 0;
-	padding-bottom: 0;
+	padding-bottom: 800px;
 }
 
 .bg
@@ -78,13 +78,16 @@
     	border-bottom: 110px solid #9DD9F3;
     	}
 
-
-.tree{
-	z-index: 1
+.links {
+	position: absolute; left: 720px; bottom: -200px;
+	width: 100%
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica;
 	}
-	img:hover {
-  	opacity: 0.5;
-}
+
 
 #container {
     width: 100%; 
@@ -108,6 +111,14 @@
 
 #treeShape {
 	z-index: 900;
+	}
+
+
+	.tree{
+		z-index: 1
+		}
+		img:hover {
+	  	opacity: 0.5;
 	}
 
 	.treetrunk {
@@ -341,7 +352,7 @@
 		} 
 
 	.sideroof {
-		position:absolute; left: 751.5px; bottom: 300px;
+		position:absolute; left: 752px; bottom: 300px;
     	width: 0;
     	height: 0;
     	border-left: 30px solid transparent;
@@ -403,7 +414,7 @@
       	width: 0;
      	height: 0;
       	border-top: 30px solid transparent;
-      	border-left: 100px solid darkgreen;
+      	border-left: 100px solid #092215;
      	border-bottom: 50px solid transparent;
     	}
 
@@ -415,7 +426,7 @@
 		height: 100px;
 		background: #f5f3ce;
 		border-radius: 50%;
-		z-index: -1; 
+		z-index: -3; 
     	}
 
     .mooncutout {
@@ -424,18 +435,185 @@
 		height: 80px;
 		background: black;
 		border-radius: 50%;
-		z-index: -1; 
+		z-index: -3; 
     	}
 
-    .grass {
+#grass {}
+
+    .grass1 {
   		position:absolute; left: 0px; bottom: 0px;
 		width: 1620px;
 		height: 310px;
-		background: darkgreen;
+		background: #092215;
 		z-index: -1; 
     	}
 
+#clouds {}
+
+	.cloud1 {
+		position: absolute; left: 800px; bottom: 800px;
+		width: 100px;
+      	height: 50px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud2 {
+		position: absolute; left: 750px; bottom: 790px;
+		width: 80px;
+      	height: 40px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud3 {
+		position: absolute; left: 840px; bottom: 780px;
+		width: 150px;
+      	height: 70px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud4 {
+		position: absolute; left: 800px; bottom: 765px;
+		width: 100px;
+      	height: 50px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud5 {
+		position: absolute; left: 940px; bottom: 770px;
+		width: 90px;
+      	height: 40px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud6 {
+		position: absolute; left: 990px; bottom: 780px;
+		width: 85px;
+      	height: 40px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud7 {
+		position: absolute; left: 1150px; bottom: 757px;
+		width: 50px;
+      	height: 25px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud8 {
+		position: absolute; left: 1170px; bottom: 735px;
+		width: 100px;
+      	height: 50px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud9 {
+		position: absolute; left: 1230px; bottom: 750px;
+		width: 80px;
+      	height: 40px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud10 {
+		position: absolute; left: 710px; bottom: 780px;
+		width: 75px;
+      	height: 30px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud11 {
+		position: absolute; left: 500px; bottom: 700px;
+		width: 120px;
+      	height: 50px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud12 {
+		position: absolute; left: 450px; bottom: 720px;
+		width: 80px;
+      	height: 40px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud13 {
+		position: absolute; left: 400px; bottom: 680px;
+		width: 120px;
+      	height: 60px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud14 {
+		position: absolute; left: 350px; bottom: 700px;
+		width: 70px;
+      	height: 35px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud15 {
+		position: absolute; left: 675px; bottom: 793px;
+		width: 50px;
+      	height: 25px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud16 {
+		position: absolute; left: 180px; bottom: 720px;
+		width: 130px;
+      	height: 65px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud17 {
+		position: absolute; left: 145px; bottom: 710px;
+		width: 65px;
+      	height: 32.5px;
+      	background: grey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
+
+	.cloud18 {
+		position: absolute; left: 1360px; bottom: 670px;
+		width: 100px;
+      	height: 50px;
+      	background: darkgrey;
+      	border-radius: 100px / 50px;
+      	z-index: -2
+		}
     	
+
+
 
 
 	.pgcontent {
@@ -516,11 +694,16 @@ section {
 	transform: rotateX(320deg) rotateY(-230deg)
 	}
 
+div.treeBB {
+	z-index: 1;
+	}
+
 div.face {
 	position: absolute;
 	top: 0;
 	left: 0;
 	background-size: cover;
+	z-index: -1;
 	}
 
 div.basketballFront {
