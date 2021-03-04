@@ -619,7 +619,7 @@
 	.pgcontent {
 		padding-bottom: 300px; 
 	    color:white;
-		font-size: 68px;
+		font-size: 65px;
 		position: relative;
 		top: -300px;
 		display: flex;
@@ -650,6 +650,7 @@
 		color:white;
 		font-size: 20px;
 		font-family: Helvetica;
+		line-height: 28px;
 		}
 
 	.pgtwo {
@@ -660,6 +661,7 @@
 		color:white;
 		font-size: 20px;
 		font-family: Helvetica;
+		line-height: 28px;
 		}
 
 	.pgthree {
@@ -670,6 +672,7 @@
 		color:white;
 		font-size: 20px;
 		font-family: Helvetica;
+		line-height: 28px;
 		}
 
 	.citation {
