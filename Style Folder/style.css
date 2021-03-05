@@ -441,9 +441,10 @@
 #grass {}
 
     .grass1 {
-  		position:absolute; left: 0px; bottom: 0px;
-		width: 1620px;
-		height: 310px;
+    	padding-bottom: 1900px; 
+  		position:absolute; left: 0px; bottom: -1700px;
+		width: 1600px;
+		height: 110px;
 		background: #092215;
 		z-index: -1; 
     	}
@@ -456,7 +457,7 @@
       	height: 50px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud2 {
@@ -465,7 +466,7 @@
       	height: 40px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud3 {
@@ -474,7 +475,7 @@
       	height: 70px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud4 {
@@ -483,7 +484,7 @@
       	height: 50px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud5 {
@@ -492,7 +493,7 @@
       	height: 40px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud6 {
@@ -501,7 +502,7 @@
       	height: 40px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud7 {
@@ -510,7 +511,7 @@
       	height: 25px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud8 {
@@ -519,7 +520,7 @@
       	height: 50px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud9 {
@@ -528,7 +529,7 @@
       	height: 40px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud10 {
@@ -537,7 +538,7 @@
       	height: 30px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud11 {
@@ -546,7 +547,7 @@
       	height: 50px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud12 {
@@ -555,7 +556,7 @@
       	height: 40px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud13 {
@@ -564,7 +565,7 @@
       	height: 60px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud14 {
@@ -573,7 +574,7 @@
       	height: 35px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud15 {
@@ -582,7 +583,7 @@
       	height: 25px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud16 {
@@ -591,7 +592,7 @@
       	height: 65px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud17 {
@@ -600,7 +601,7 @@
       	height: 32.5px;
       	background: grey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
 
 	.cloud18 {
@@ -609,9 +610,46 @@
       	height: 50px;
       	background: darkgrey;
       	border-radius: 100px / 50px;
-      	z-index: -2
+      	z-index: -2;
 		}
-    	
+
+	.forestTitle {
+		position: absolute; left: 200px; bottom: -290px;
+		color: white;
+		margin-left: 150px;
+		margin-right: 300px;
+		max-width: 1200px;
+		font-size: 69px;
+		font-family: Helvetica;
+		z-index: 100;
+		}
+
+
+	.pgoneF {
+		position: absolute; left: 200px; bottom: -1100px;
+		color: white;
+		margin-left: 150px;
+		margin-right: 300px;
+		max-width: 1200px;
+		font-size: 20px;
+		font-family: Helvetica;
+		line-height: 28px;
+		z-index: 100;
+		}
+
+	.citationF {
+		position: absolute; left: 200px; bottom: -1650px;
+		color: white;
+		margin-left: 150px;
+		margin-right: 300px;
+		max-width: 1200px;
+		font-size: 14px;
+		font-family: Helvetica;
+		line-height: 28px;
+		z-index: 100;
+		}
+
+    
 
 
 
@@ -686,6 +724,8 @@
 		}
 
 
+
+
 section {
 	position: absolute;
 	top: 50%;
@@ -698,7 +738,7 @@ section {
 	}
 
 div.treeBB {
-	z-index: 2;
+	z-index: 900;
 	}
 
 div.face {
@@ -757,3 +797,8 @@ div.basketballBack {
 	z-index: -1;
 	}
 
+.Rim {
+	opacity: 100%;
+	position: absolute; left: 635px; bottom: 200px;
+	pointer-events: none;
+	}
